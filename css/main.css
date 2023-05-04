@@ -1,1 +1,42 @@
 @charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1120px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: rgb(171, 208, 238);
+}
+
+footer {
+    display: block;
+    width: 100%;
+    max-width: 1120px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgb(113, 153, 240);
+}
