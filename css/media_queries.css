@@ -1,1 +1,27 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+
+    header > label {
+        display: none;
+    }
+
+    nav {
+        position: relative;
+        top: auto;
+        height: auto;
+        width: auto;
+        border-top: 0;
+        opacity: 1;
+
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        border-bottom: 0;
+    }
+    
+}
