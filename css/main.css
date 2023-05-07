@@ -96,7 +96,7 @@ label span:nth-child(3) {
 
 /* inicio do menu */
 nav {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     z-index: 999;
     width: 100%;
@@ -105,10 +105,6 @@ nav {
 
     position: absolute;
     top: 80px;
-
-    opacity: 0;
-    height: 0;
-    transition: 0.25s ease-in-out;
 }
 
 nav ul {
@@ -141,8 +137,7 @@ nav ul li a:hover {
     color: var(--cor3);
 }
 #checkbox-menu:checked ~ nav {
-    opacity: 1;
-    height: auto;
+    display: block; 
 }
 
 /* fim do menu */
@@ -157,7 +152,6 @@ main {
     max-width: 1120px;
     height: calc(100vh - 140px);
     margin: 0 auto;
-    background-color: rgb(171, 208, 238);
     overflow-y: auto;
 }
 

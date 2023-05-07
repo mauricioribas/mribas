@@ -7,12 +7,13 @@
     }
 
     nav {
+        display: block;
         position: relative;
         top: auto;
         height: auto;
         width: auto;
         border-top: 0;
-        opacity: 1;
+        
 
     }
 
