@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 420px) and (max-width: 599px) {
+    .card {
+        width: 49%;
+    }
+}
+
 @media screen and (min-width: 600px) {
 
     header > label {

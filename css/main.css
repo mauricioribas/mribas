@@ -151,27 +151,45 @@ main {
     flex-wrap: wrap;
     width: 100%;
     max-width: 1120px;
-    height: calc(100vh - 140px);
     margin: 0 auto;
-    overflow-y: auto;
+
 }
 
 .artigos {
     padding: 5px;
     width: 100%;
-    background: #7EA1C4;
+}
+
+.artigos > img {
+    float: left;
+    margin-right: 5px;
+}
+
+.artigos > p {
+    text-align: justify;
 }
 
 .cards {
     padding: 5px;
     width: 100%;
-    background: #cedbe9;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
+
+.card {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 
 .cotidiano {
     padding: 5px;
     width: 100%;
-    background: #7c7c7c;
+    background: #46444b;
 }
 /* fim do main */
 
