@@ -25,5 +25,14 @@
     nav ul li {
         border-bottom: 0;
     }
+
+    .artigos {
+        width: 70%;
+    }
+    
+    .cards {
+        width: 30%;
+    }
+    
     
 }

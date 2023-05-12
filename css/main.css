@@ -156,6 +156,23 @@ main {
     overflow-y: auto;
 }
 
+.artigos {
+    padding: 5px;
+    width: 100%;
+    background: #7EA1C4;
+}
+
+.cards {
+    padding: 5px;
+    width: 100%;
+    background: #cedbe9;
+}
+
+.cotidiano {
+    padding: 5px;
+    width: 100%;
+    background: #7c7c7c;
+}
 /* fim do main */
 
 /* inicio do footer */
