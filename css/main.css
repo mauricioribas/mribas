@@ -160,12 +160,18 @@ main {
     width: 100%;
 }
 
-.artigos > img {
+.art_imgs {
+    margin: 0px;
+    width: 100%;
     float: left;
-    margin-right: 5px;
+}
+
+.art_imgs img {
+    width: 100%;
 }
 
 .artigos > p {
+    padding: 5px;
     text-align: justify;
 }
 
@@ -175,16 +181,26 @@ main {
 
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 5px;justify-content: space-between;
 }
 
 .card {
-    padding: 5px;
+    
     width: 100%;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
+.card > h3 {
+    margin: -1px -1px 0px -1px;
+    background: var(--cor2);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.card > p {
+    padding: 5px;
+}
 
 .cotidiano {
     padding: 5px;
