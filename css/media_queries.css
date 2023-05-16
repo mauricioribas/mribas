@@ -36,17 +36,9 @@
     .artigos {
         width: 70%;
     }
-    
-    .art_imgs {
-        max-width: 380px;
-    }
 
     .cards {
         width: 30%;
     }
-    
-    .art_imgs {
-        width: 50%;
-        margin-right: 5px;
-    }
+
 }
