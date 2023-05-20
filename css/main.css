@@ -192,7 +192,8 @@ main {
 
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;justify-content: space-between;
+    gap: 5px;
+    justify-content: space-between;
 }
 
 .card {
@@ -224,7 +225,16 @@ main {
 .cotidiano {
     padding: 5px;
     width: 100%;
-    background: #46444b;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.cotidiano .cot_art {
+    width: 100%;
+    padding: 5px 0px;
 }
 /* fim do main */
 
